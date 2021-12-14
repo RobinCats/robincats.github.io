@@ -1,0 +1,37 @@
+title: Hello! I'm Robin 
+description: > # this means to ignore newlines until "baseurl:"
+ Experienced Actuary with a demonstrated history of working in the pension, life, health and non-life insurance and investment management industry. Skilled in Quantitative Modeling, ALM, Financial Risk, Risk Management, Machine Learning, Analytical Skills and Econometrics.
+ Eager to learn and challenge myself in a continuous basis and further development. Love to do in-depth research and come to a aconcrete and practical solution.
+permalink: ':title/'
+#baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
+baseurl: "/"
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Robin Cats # add your name
+author-img: robin.jpg # add your photo
+about-author: Experienced Actuary. Always hungry to keep learning. # add description
+social-twitter: rahmanifard # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: robincats # add your Github handle
+social-linkedin:  # add your Linkedin handle
+social-email: robincats@gmail.com  # add your Email address
+
+# Disqus
+discus-identifier:  # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
